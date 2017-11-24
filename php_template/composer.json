@@ -37,6 +37,11 @@
         "test": [
             "phpunit"
         ],
+        "clean": [
+            "rm -rf build",
+            "rm -rf vendor",
+            "rm -rf node_modules"
+        ],
         "cs": [
             "phpcs src tests"
         ],
