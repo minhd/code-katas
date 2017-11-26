@@ -1,0 +1,22 @@
+{
+  "name": "php_template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {},
+  "scripts": {
+    "test": "gulp test",
+    "dev": "gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-notify": "^3.0.0",
+    "gulp-phpunit": "^0.24.1",
+    "gulp-run": "^1.7.1"
+  }
+}
